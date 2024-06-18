@@ -1,3 +1,3 @@
 # 01BOOTCAMPJSVUE
 
-desafio 1: Curriculum vitae
+Desafio 1: Curriculum vitae
