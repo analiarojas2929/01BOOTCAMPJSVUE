@@ -1,3 +1,4 @@
 # 01BOOTCAMPJSVUE
 
-Desafio 1: Curriculum vitae
+1 - Ejercicio Guiado Terminado: MI PRIMERA PAGINA WEB 
+2 - Desafio 1: Curriculum vitae
