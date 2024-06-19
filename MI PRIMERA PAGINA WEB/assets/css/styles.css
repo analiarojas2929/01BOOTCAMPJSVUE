@@ -1,0 +1,226 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo del body */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Estilo del menú de navegación */
+
+ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+/* Estilo de la Hero Section */
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    text-shadow: 2px 2px 4px #000000b3;
+    max-width: 50%;
+    text-align: right;
+}
+
+.hero-text {
+    max-width: 50%;
+    padding: 20px;
+    text-align: right;
+}
+
+
+/* Estilo de la sección de ubicación */
+
+.location {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.location img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.location h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.location p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+/* Estilo de la próxima charla */
+
+
+/* Estilo de la próxima charla */
+
+.next-event {
+    background-color: #a33d2d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    /* Alinea el contenido al centro */
+}
+
+.next-event-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Centra horizontalmente */
+    text-align: left;
+    /* Ajusta el texto a la izquierda dentro de la caja central */
+}
+
+.next-event img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.event-details {
+    text-align: left;
+}
+
+.next-event h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.next-event h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.next-event p {
+    font-size: 1.2em;
+}
+
+.event-details {
+    text-align: left;
+}
+
+.next-event h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.next-event h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.next-event p {
+    font-size: 1.2em;
+}
+
+
+/* Estilo de eventos anteriores */
+
+.previous-events {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.previous-events div {
+    text-align: center;
+    max-width: 300px;
+}
+
+.previous-events img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.previous-events h3 {
+    font-size: 1.5em;
+}
+
+
+/* Estilo del footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer a:hover {
+    color: #ddd;
+}
