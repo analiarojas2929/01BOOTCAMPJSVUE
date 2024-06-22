@@ -1,0 +1,132 @@
+/* Importación de fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+/* Reset de márgenes y padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo del body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+/* Estilo del header */
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+
+/* Estilo de las secciones */
+
+.section-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Sección de héroe */
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Sección de descripción */
+
+.desc-section {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.desc-section img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    display: block;
+}
+
+
+/* Sección de iconos */
+
+.icons-section {
+    background-color: #1e1a13;
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item {
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.icon-item i {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.icon-item p {
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+
+/* Sección de galería */
+
+.gallery-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: #0c0c0c;
+    color: #ffffff;
+}
+
+.gallery-section img {
+    width: 30%;
+    height: auto;
+    margin: 0.5rem;
+    display: block;
+}
+
+
+/* Estilo del footer */
+
+.footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
