@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #212529;
+}
+
+.header {
+    background-color: #e83e8c;
+    color: white !important;
+}
+
+.icons {
+    background-color: #17A2B8;
+    color: white;
+}
+
+footer {
+    background-color: #e83e8c;
+    color: white;
+    padding: 20px 0;
+}
+
+.icons-section i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.suricata-logo {
+    width: 53px;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.custom-card img {
+    border-bottom: 3px solid #e83e8c;
+}
+
+.custom-card .card-body {
+    text-align: center;
+}
+
+.custom-card .card-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.custom-card .card-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.custom-card .card-link:hover {
+    text-decoration: underline;
+}
