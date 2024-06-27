@@ -1,0 +1,154 @@
+/* General styles */
+
+body {
+    margin-top: 0;
+    padding-top: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.hero-section {
+    background: url('../img/bg-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Alinea el contenido hacia el extremo derecho */
+    color: #fff;
+    text-align: right;
+    /* Alinea el texto a la derecha */
+    padding: 0 20px;
+    /* Añade padding según sea necesario */
+}
+
+.hero-section .container {
+    /* Ajusta el ancho máximo del contenedor */
+    margin-right: auto;
+    /* Margen derecho automático para centrar en el lado derecho */
+    text-align: left;
+    /* Ajusta el texto dentro del contenedor */
+    text-align-last: end;
+}
+
+.hero-section .display-4 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+    margin: 0 0.5rem;
+}
+
+
+/* About section */
+
+.about-section {
+    padding: 4rem 0;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.about-section i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Portfolio section */
+
+.portfolio-section {
+    background-color: #17A2B8;
+    padding: 4rem 0;
+}
+
+.portfolio-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #f7f7f7;
+    /* Color específico para "Mis trabajos" */
+}
+
+.portfolio-section .card {
+    margin-bottom: 2rem;
+}
+
+
+/* Contact section */
+
+.contact-section {
+    padding: 4rem 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section .form-group {
+    margin-bottom: 1.5rem;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.text-cen {
+    text-align: end !important;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.equal-height-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-columns>[class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.equal-height-columns>[class*="col-"]>.card {
+    flex-grow: 1;
+    text-align: left;
+}
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+}
