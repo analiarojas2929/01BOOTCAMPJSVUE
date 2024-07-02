@@ -1,0 +1,100 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #28A745;
+}
+
+.container {
+    flex: 1;
+}
+
+.boton {
+    margin-top: 20px;
+}
+
+
+/* Estilos de las tarjetas */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-weight: 500;
+}
+
+.card-text {
+    font-weight: 300;
+}
+
+.card-text.text-success {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.container1 {
+    background-color: #28A745;
+}
+
+v
+/* Footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer img {
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Formulario */
+
+.formulario {
+    margin-bottom: 50px;
+}
+
+.form-group label {
+    font-weight: 500;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
