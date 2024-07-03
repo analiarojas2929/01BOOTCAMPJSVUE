@@ -11,3 +11,5 @@
 5 - Desafio 4: Olivia Ros
 
 6 - Desafio 5: Cuppon
+
+7- Desafio 6: Notas-finales.js
