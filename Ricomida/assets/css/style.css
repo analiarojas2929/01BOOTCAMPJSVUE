@@ -1,0 +1,339 @@
+body {
+    font-family: "Lobster", cursive;
+    font-family: "Cabin", sans-serif;
+}
+
+a.nav-link {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-family: "Cabin", sans-serif;
+    font-weight: normal;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000000;
+}
+
+#Carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Cambiado justify-items por align-items para alinear verticalmente */
+    height: 20rem;
+}
+
+.ImgCarousel {
+    width: 12.8rem;
+    height: 12.8rem;
+}
+
+.carousel-indicators .active {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border: none;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #6c757d;
+    border: none;
+    margin: 0 5px;
+}
+
+.carousel-indicators {
+    top: 250px;
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        width: 10px;
+        /* Esto afecta el ancho de la barra de navegación, asegúrate de revisar si es el comportamiento deseado */
+        height: 46px;
+        /* Esto afecta la altura de la barra de navegación */
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: center;
+    }
+}
+
+.hr-top {
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    background-color: #000000;
+}
+
+.hr-bottom {
+    margin-top: -30px;
+    background-color: #000000;
+}
+
+hr {
+    margin-top: 7.5px;
+    margin-bottom: 17px;
+    height: 1pt;
+    background-color: #000000 !important;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.cabeza {
+    padding-left: 37px;
+    padding-right: 37px;
+}
+
+.cuerpo {
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 20px;
+}
+
+.titulo {
+    padding-top: 13.5px;
+}
+
+.receta {
+    padding-top: 40px !important;
+    padding-left: 37px;
+    padding-right: 37px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: "Cabin", sans-serif;
+    font-weight: bold;
+    color: #373a3c;
+    padding-top: 13px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #373a3c;
+}
+
+section {
+    padding-top: 100px;
+}
+
+.container img {
+    width: 100%;
+}
+
+a.navbar-brand {
+    width: 180px;
+    height: 46px;
+    font-size: 37px;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: "Cabin", sans-serif;
+}
+
+.botones {
+    width: 100%;
+    margin-top: 21px;
+}
+
+button.btn {
+    width: auto;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 13px;
+}
+
+button.btn.segundo {
+    margin-left: 10px;
+}
+
+.btn-header {
+    margin-right: 20px;
+}
+
+.btn-outline-secondary {
+    font-size: 13px;
+}
+
+h2 {
+    font-size: 25px !important;
+    margin-top: 19.5px;
+    margin-bottom: 38.5px;
+    color: #373a3c !important;
+}
+
+h3 {
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: 0.48px;
+}
+
+h4 {
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    letter-spacing: 0.48px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    font-weight: normal;
+}
+
+#work {
+    padding-top: 20px !important;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 36.19px;
+}
+
+.card-deck .card {
+    margin-bottom: 26.19px !important;
+}
+
+h5.card-title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 31px;
+}
+
+p.card-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+div.card-body {
+    padding-top: 22.21px;
+    padding-left: 15.19px;
+    padding-right: 15.19px;
+}
+
+section {
+    padding-top: 62px !important;
+}
+
+.newsletter {
+    padding-top: 95.6px;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-bottom: 95px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h2.suscribete {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    color: #ffffff !important;
+}
+
+.newsletter h3 {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 27.5px !important;
+    text-decoration: none;
+}
+
+.newsletter h3 span {
+    font-size: 20px;
+}
+
+.newsletter span {
+    font-family: "Lobster", cursive;
+}
+
+.empezar {
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 233px !important;
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    font-size: 37px;
+    font-family: "Lobster", cursive;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    padding-bottom: 34px;
+    padding-left: 19.5px;
+    padding-right: 19.5px;
+    padding-top: 41px;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    height: 46px;
+}
+
+@media (min-width: 1280px) {
+    div.container.marca:first-of-type {
+        margin-left: 57px;
+        margin-right: 57px;
+    }
+    a.nav-link {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #carouselExampleIndicators {
+        margin-left: 76px;
+        margin-right: 76px;
+    }
+    .carousel-indicators {
+        top: 200px;
+    }
+    .carousel-inner {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container.texto h2,
+    .container.texto p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
