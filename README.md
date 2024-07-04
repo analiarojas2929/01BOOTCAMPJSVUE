@@ -13,3 +13,5 @@
 6 - Desafio 5: Cuppon
 
 7- Desafio 6: Notas-finales.js
+
+8 - Desafio 7: Ricomida
