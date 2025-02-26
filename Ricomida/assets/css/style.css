@@ -56,7 +56,7 @@ a.nav-link {
     .navbar-expand-lg .navbar-nav {
         flex-direction: row;
         width: 10px;
-        /* Esto afecta el ancho de la barra de navegación, asegúrate de revisar si es el comportamiento deseado */
+        
         height: 46px;
         /* Esto afecta la altura de la barra de navegación */
     }
